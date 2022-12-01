@@ -1,5 +1,5 @@
 import { Box, Container } from "@chakra-ui/react";
-import FirstThree from "../components/three/FirstThree";
+import FirstThreeFiber from "../components/three/FirstThree";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         mt={["40px", "60px", "100px"]}
         mb={["40px", "140px", "160px"]}
       >
-        <FirstThree />
+        <FirstThreeFiber />
       </Box>
     </Container>
   );
