@@ -1,5 +1,6 @@
 import { Canvas } from "@react-three/fiber";
-import { KeyboardControls } from "@react-three/drei";
+import { KeyboardControls, OrbitControls } from "@react-three/drei";
+
 import InitialGame from "./InitialGame";
 
 export default function FirstThreeFiber() {
@@ -22,7 +23,8 @@ export default function FirstThreeFiber() {
           position: [2.5, 4, 8],
         }}
       >
-        <InitialGame/>
+        <OrbitControls />
+        <InitialGame />
       </Canvas>
     </KeyboardControls>
   );
